@@ -110,28 +110,79 @@ nav ul li {
 .button-primary {
     color: #FFFFFF;
     border-radius: 48px;
-    font-size: 20px;
+    font-size: 24px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     border: none;
     padding: 21px 40px;
     margin-right: 24px;
+    text-transform: uppercase;
 }
 
 .button-secondary {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 24px;
     border-radius: 48px;
     border: none;
     padding: 21px 40px;
     background: #4EC5F7;
+    text-transform: uppercase;
 }
 
 
 
 
+/* Gamer section */
+.gamer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 150px
+}
 
+.gamer-image {
+    width: 100%;
+}
 
+/* .gamer-image img {
+    width: 100%;
+} */
 
+.gamer-details {
+    text-align: right;
+}
+
+.gamer-title {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 24px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-description {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.purpose {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
 
 
 
@@ -155,10 +206,10 @@ nav ul li {
 
 @media screen and (max-width:576px) {
 
-    nav div,
+    /* nav div,
     ul {
-        margin: 10px 10px;
-    }
+        margin: 1px 10px;
+    } */
 
     nav {
         flex-direction: column;
@@ -193,7 +244,33 @@ nav ul li {
     }
 
     .button-primary {
-        padding: 3px 20px;
+        padding: 10px 20px;
     }
 
+
+    /* Gamer section */
+    .gamer {
+        margin: 100px 0;
+        flex-direction: column;
+    }
+
+    .game-image {
+        width: 100%;
+    }
+
+    .gamer-details {
+        text-align: center;
+    }
+
+    .gamer-title {
+        text-align: center;
+    }
+
+    .gamer-description {
+        text-align: center;
+    }
+
+    .purpose {
+        text-align: center;
+    }
 }
