@@ -185,13 +185,106 @@ nav ul li {
 }
 
 
+/* Instant play section */
+.instant-1 {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin: 100px 150px;
+}
 
+.instant-details {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 200px;
+}
 
+.instant-title {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
 
+.instant-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
+.instant-description {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
 
+.instant-image1 {
+    background-image: url("/images/Rectangle\ 55.png");
+    background-size: cover;
+    width: 120%;
+    height: 650px;
+}
 
+.upper-image1 {
+    width: 50%;
+    margin-top: 350px;
+    margin-left: -190px;
+    border-radius: 8px;
 
+}
+
+.instant-2 {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin: 250px 150px;
+}
+
+.instant-details {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+.instant-title {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.instant-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant-description {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.instant-image2 {
+    background-image: url("/images/Rectangle\ 67.png");
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+
+.upper-image2 {
+    width: 50%;
+    margin-top: 350px;
+    margin-left: 520px;
+}
 
 
 
