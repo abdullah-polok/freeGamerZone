@@ -299,11 +299,12 @@ nav ul li {
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-bottom: 120px;
 
 }
 
 .career-details {
-    margin-left: 240px;
+    margin-left: 150px;
     color: #FFF;
 }
 
@@ -364,9 +365,36 @@ nav ul li {
 }
 
 
+/* Game Category */
+.category1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 150px;
+}
 
+.category-detail {
+    display: flex;
+    align-items: center;
+}
 
+.category-detail img {
+    margin-right: 16px;
+}
 
+.category-select {
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.category2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 35px 150px;
+}
 
 
 
@@ -482,7 +510,7 @@ nav ul li {
 
     .career-details {
         margin: 100px 10px;
-
+        padding: 0 10px;
     }
 
     .artist-details {
@@ -493,5 +521,26 @@ nav ul li {
 
     .career-image {
         width: 100%;
+    }
+
+
+    /* Category */
+    .category1 {
+        flex-direction: column;
+        margin: 0 0;
+
+    }
+
+    .category1 div {
+        margin-bottom: 5px;
+    }
+
+    .category2 {
+        flex-direction: column;
+        margin: 0 0;
+    }
+
+    .category2 div {
+        margin-bottom: 5px;
     }
 }
