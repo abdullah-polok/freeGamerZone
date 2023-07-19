@@ -403,8 +403,6 @@ footer {
     margin-top: 120px;
 }
 
-footer div {}
-
 .footer-title {
     display: flex;
     align-items: center;
@@ -415,6 +413,10 @@ footer div {}
     /* margin-bottom: 24px; */
     text-align: center;
     padding-top: 100px;
+}
+
+.footer-title img {
+    margin-right: 16px;
 }
 
 .footer-options {
@@ -431,7 +433,6 @@ footer div {}
 
 .footer-icons {
     text-align: center;
-    margin-top: 0;
     margin-top: 35px;
 
 }
@@ -611,5 +612,43 @@ footer div {}
 
     .category2 div {
         margin-bottom: 5px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    footer {}
+
+    .footer-title {
+        font-size: 15px;
+    }
+
+    .footer-options {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 58px;
+    }
+
+    .footer-options h3 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer-icons {
+        font-size: 1px;
+    }
+
+    .footer-icons i {
+        margin: 0 10px;
+    }
+
+    .footer-policy {
+        flex-wrap: wrap;
+        margin-top: 24px;
+    }
+
+    .footer-policy h3 {
+        font-size: 10px;
+        margin: 5px 20px;
     }
 }
