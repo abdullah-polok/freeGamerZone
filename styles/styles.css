@@ -162,7 +162,6 @@ nav ul li {
 
 .funny-name {
     margin: 0 40px;
-    ma
 }
 
 .OverPlayContainer>img {
@@ -309,7 +308,7 @@ nav ul li {
 }
 
 .instant-image1 {
-    background-image: url('/images/Rectangle_55.png');
+    background-image: url('./images/Rectangle_55.png');
     background-size: 100%;
     width: 120%;
     height: 650px;
@@ -361,7 +360,7 @@ nav ul li {
 }
 
 .instant-image2 {
-    background-image: url("/images/Rectangle_67.png");
+    background-image: url("./images/Rectangle_67.png");
     background-size: 100%;
     width: 100%;
     height: 650px;
