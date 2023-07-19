@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -148,7 +149,7 @@ nav ul li {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 150px;
-    gap: 24px;
+    gap: 20px;
 }
 
 .funny-card img {
@@ -503,6 +504,9 @@ footer {
 }
 
 @media screen and (max-width:576px) {
+    body {
+        overflow-x: hidden;
+    }
 
     nav div,
     ul {
@@ -651,7 +655,7 @@ footer {
 
     /* Category */
     .category1 {
-        flex-direction: column;
+        flex-wrap: wrap;
         margin: 0 0;
 
     }
@@ -661,7 +665,7 @@ footer {
     }
 
     .category2 {
-        flex-direction: column;
+        flex-wrap: wrap;
         margin: 0 0;
     }
 
