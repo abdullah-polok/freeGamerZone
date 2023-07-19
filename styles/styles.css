@@ -3,6 +3,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     overflow-x: hidden;
+    margin: 0 0;
 }
 
 
@@ -156,6 +157,31 @@ nav ul li {
     width: 100%;
 }
 
+.funny-card .image:hover {
+    border: 10px solid #FF42A5;
+    border-radius: 22px;
+    transition: .25s;
+}
+
+.itemsContainer {
+    float: left;
+    position: relative
+}
+
+.itemsContainer:hover .play {
+    display: block
+}
+
+.play {
+    position: absolute;
+    display: none;
+    width: 100px;
+    left: 35%;
+    top: 40%;
+    background-color: rgba(128, 128, 128, 0.356);
+    /* z-index: 100 */
+}
+
 .funny-card p {
     color: #534C64;
     font-family: Work Sans;
@@ -163,6 +189,7 @@ nav ul li {
     font-style: normal;
     font-weight: 500;
 }
+
 
 
 
@@ -580,6 +607,7 @@ footer {
         margin: 0 10px;
     }
 
+
     .funny-card p {
         text-align: center;
     }
@@ -758,5 +786,79 @@ footer {
 
         font-size: 10px;
         margin: 5px 20px;
+    }
+}
+
+
+/* Tablet */
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    nav {
+        margin: 20px -40px;
+    }
+
+    .banner {
+        /* justify-content: space-between; */
+        margin: 20px 150px;
+    }
+
+    .banner-image {
+        width: 350px;
+    }
+
+    .banner-details {
+        margin-right: 75px;
+    }
+
+    .banner-title {
+        font-size: 38px;
+    }
+
+    .banner-title span {
+        font-size: 75px;
+    }
+
+    .buttons {
+        display: flex;
+    }
+
+    .button-primary,
+    .button-secondary {
+        font-size: 10px;
+    }
+}
+
+/* Gamer section  */
+@media screen and (min-width:577px) and (max-width:768px) {
+    .gamer {
+        margin: 0 0;
+        flex-direction: column-reverse;
+    }
+
+    .gamer-details {
+        margin-left: 100px;
+    }
+
+    .game-image {
+        margin-left: 100px;
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .funny-cards {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 50px;
+        /* margin-left: 200px; */
+    }
+
+    .funny-card {
+        display: flex;
+        align-items: center;
+    }
+
+    .funny-title {
+        text-align: center;
+        margin-left: 150px;
     }
 }
