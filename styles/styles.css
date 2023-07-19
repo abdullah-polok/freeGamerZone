@@ -292,6 +292,77 @@ nav ul li {
 
 
 
+/* Career Section */
+
+.career {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+
+}
+
+.career-details {
+    margin-left: 240px;
+    color: #FFF;
+}
+
+.career-title {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 24px;
+    /* 125% */
+}
+
+.career-description {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    /* 166.667% */
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.artist-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 40px;
+
+}
+
+.artist-location {
+    text-align: right;
+}
+
+.button-third {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF42A5;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    padding: 21px 40px;
+    margin-top: 0;
+}
+
+
+
+
+.career-whole-image {
+    width: 100%;
+}
+
 
 
 
@@ -393,5 +464,34 @@ nav ul li {
     .upper-image2 {
         margin-top: 200px;
         margin-left: 170px;
+    }
+
+    .instant-details {
+        text-align: center;
+        margin: 10px 10px;
+    }
+}
+
+
+
+@media screen and (max-width:576px) {
+    .career {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .career-details {
+        margin: 100px 10px;
+
+    }
+
+    .artist-details {
+        align-items: center;
+        font-size: 10px;
+    }
+
+
+    .career-image {
+        width: 100%;
     }
 }
