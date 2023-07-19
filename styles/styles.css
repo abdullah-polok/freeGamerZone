@@ -817,17 +817,19 @@ footer {
 /* Tablet */
 
 @media screen and (min-width:577px) and (max-width:768px) {
-    nav {
-        margin: 20px -40px;
+
+    nav div,
+    ul {
+        margin: 20px 80px;
     }
 
     .banner {
-        /* justify-content: space-between; */
-        margin: 20px 150px;
+        justify-content: center;
+        /* margin: 20px 30px; */
     }
 
     .banner-image {
-        width: 350px;
+        width: 100%;
     }
 
     .banner-details {
