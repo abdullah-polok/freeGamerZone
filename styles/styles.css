@@ -3,7 +3,8 @@
 body {
     font-family: 'Work Sans', sans-serif;
     overflow-x: hidden;
-    margin: 0 0;
+    margin: 0 10px;
+    /* margin-right: 0; */
 }
 
 
@@ -154,16 +155,16 @@ nav ul li {
 }
 
 .funny-card {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
 }
 
 /* .funny-name {
     margin-top: 200px;
 } */
 
-/* .OverPlayContainer>img {
+.OverPlayContainer>img {
     width: 100%;
     height: 100%;
 
@@ -171,7 +172,7 @@ nav ul li {
 
 
 .OverPlayContainer {
-    position: absolute;
+    position: relative;
 }
 
 .overplay {
@@ -200,7 +201,7 @@ nav ul li {
     opacity: .8;
     border-radius: 22px;
     border: 10px solid #FF42A5;
-} */
+}
 
 .funny-card p {
     color: #534C64;
