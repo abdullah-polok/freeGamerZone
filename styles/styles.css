@@ -396,7 +396,76 @@ nav ul li {
     margin: 35px 150px;
 }
 
+/* Footer */
+footer {
+    background-color: #0B0223;
+    color: white;
+    margin-top: 120px;
+}
 
+footer div {}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    /* margin-bottom: 24px; */
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.footer-options h3 {
+    margin-right: 60px;
+    margin-top: 35px;
+}
+
+.footer-icons {
+    text-align: center;
+    margin-top: 0;
+    margin-top: 35px;
+
+}
+
+.footer-icons i {
+    margin-right: 40px;
+    font-size: 35px;
+}
+
+.footer-policy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-policy h3 {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+.rights {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 120px;
+}
 
 @media screen and (max-width:576px) {
 
