@@ -153,34 +153,54 @@ nav ul li {
     gap: 20px;
 }
 
-.funny-card img {
+.funny-card {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+/* .funny-name {
+    margin-top: 200px;
+} */
+
+/* .OverPlayContainer>img {
     width: 100%;
+    height: 100%;
+
 }
 
-.funny-card .image:hover {
-    border: 10px solid #FF42A5;
-    border-radius: 22px;
-    transition: .25s;
-}
 
-.itemsContainer {
-    float: left;
-    position: relative
-}
-
-.itemsContainer:hover .play {
-    display: block
-}
-
-.play {
+.OverPlayContainer {
     position: absolute;
-    display: none;
-    width: 100px;
-    left: 35%;
-    top: 40%;
-    background-color: rgba(128, 128, 128, 0.356);
-    /* z-index: 100 */
 }
+
+.overplay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: #0000009a;
+    cursor: pointer;
+}
+
+.content {
+    width: 200px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    translate: (-50%, -50%);
+}
+
+
+
+.OverPlayContainer:hover .overplay {
+    opacity: .8;
+    border-radius: 22px;
+    border: 10px solid #FF42A5;
+} */
 
 .funny-card p {
     color: #534C64;
@@ -191,9 +211,11 @@ nav ul li {
 }
 
 
-
-
 /* Gamer section */
+.instant {
+    margin-top: 450px;
+}
+
 .gamer {
     display: flex;
     align-items: center;
@@ -612,6 +634,7 @@ footer {
         text-align: center;
     }
 
+
     /* Gamer section */
     .gamer {
         margin: 100px 0;
@@ -854,11 +877,73 @@ footer {
 
     .funny-card {
         display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
     .funny-title {
         text-align: center;
         margin-left: 150px;
+    }
+
+    .funny-description {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .instant-1 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .instant-image1 {
+        margin-left: 250px;
+    }
+
+    .instant-2 {
+        display: none;
+    }
+
+    .career {
+        flex-direction: column;
+    }
+
+    .career-image {
+        width: 100%;
+    }
+
+    .career-details {
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+
+    .category1 {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 10px;
+    }
+
+    .category-role {
+        margin-left: 0;
+    }
+
+
+    .footer-options {
+        flex-direction: column;
+    }
+
+    .footer-icons {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 0;
+    }
+
+    .footer-icons i {
+        margin: 10px;
+    }
+
+    .footer-policy {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 320px;
     }
 }
