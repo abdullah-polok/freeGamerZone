@@ -128,6 +128,40 @@ nav ul li {
     text-transform: uppercase;
 }
 
+/* Funny Section */
+/* Funny section */
+.funny-details {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.funny-title {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.funny-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 150px;
+    gap: 24px;
+}
+
+.funny-card img {
+    width: 100%;
+}
+
+.funny-card p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
 
 
 
@@ -470,10 +504,10 @@ footer {
 
 @media screen and (max-width:576px) {
 
-    /* nav div,
+    nav div,
     ul {
         margin: 1px 10px;
-    } */
+    }
 
     nav {
         flex-direction: column;
@@ -495,6 +529,7 @@ footer {
 
     .banner-details {
         text-align: center;
+
     }
 
     .banner-details p {
@@ -505,12 +540,31 @@ footer {
     .buttons {
         display: flex;
         width: 100%;
+        justify-content: center;
+
     }
 
     .button-primary {
+        font-size: 14px;
         padding: 10px 20px;
     }
 
+    .button-secondary {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+
+    /* Funny section */
+
+    .funny-cards {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 10px;
+    }
+
+    .funny-card p {
+        text-align: center;
+    }
 
     /* Gamer section */
     .gamer {
@@ -553,7 +607,7 @@ footer {
     }
 
     .instant-2 {
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: -120px 20px;
         gap: 0;
 
@@ -562,11 +616,12 @@ footer {
     .upper-image2 {
         margin-top: 200px;
         margin-left: 170px;
+        margin-bottom: 0;
     }
 
     .instant-details {
         text-align: center;
-        margin: 10px 10px;
+        margin: 0 10px;
     }
 }
 
@@ -575,7 +630,7 @@ footer {
 @media screen and (max-width:576px) {
     .career {
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 120px;
     }
 
     .career-details {
